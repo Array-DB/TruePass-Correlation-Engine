@@ -1,3 +1,5 @@
+![TruePass architecture](assets/readme/TruePass™: Signals to Security Roadmap.png
+
 # TruePass™ Correlation Engine
 
 **Defensive multimodal telemetry, anomaly detection, evidence preservation, and forensic correlation.**
