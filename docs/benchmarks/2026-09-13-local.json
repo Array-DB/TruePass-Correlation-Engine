@@ -1,0 +1,13 @@
+{
+  "correlations_per_sec": 724.6825432111065,
+  "db_inserts_per_sec_sqlite_local": 15723.174519237717,
+  "events_per_sec_model_serialization": 123885.5718457358,
+  "fft_frames_per_sec": 4696.754073353694,
+  "generated_at_unix_ns": 1789322307582303502,
+  "iterations": 100,
+  "memory_max_rss_kb": 170264,
+  "notes": "Synthetic local benchmark. SQLite is used only for portable insert timing; production PostgreSQL/pgvector must be benchmarked in its deployment environment.",
+  "spectrogram_frames_per_sec": 4784.765001729209,
+  "timeline_queries_per_sec": 24888.685355454614,
+  "vector_queries_per_sec": 381.1776111801496
+}

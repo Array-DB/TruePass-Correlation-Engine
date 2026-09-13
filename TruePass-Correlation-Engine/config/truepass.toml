@@ -1,0 +1,34 @@
+environment = "development"
+[database]
+url = "postgresql+psycopg://truepass:truepass@localhost:5432/truepass"
+echo = false
+pool_size = 5
+[logging]
+level = "INFO"
+json = true
+[metrics]
+enabled = true
+host = "127.0.0.1"
+port = 9464
+[process_collector]
+sensor_id = "process-local"
+interval_seconds = 2.0
+include_command_line = false
+include_sockets = true
+[network_collector]
+sensor_id = "network-local"
+interval_seconds = 2.0
+[wifi_collector]
+sensor_id = "wifi-local"
+interval_seconds = 5.0
+[bluetooth_collector]
+sensor_id = "bluetooth-local"
+interval_seconds = 5.0
+[evidence]
+ledger_path = "data/evidence-ledger.jsonl"
+[sdr]
+sample_rate = 2000000.0
+center_frequency = 100000000.0
+gain = 0.0
+buffer_size = 4096
+device = "synthetic"
