@@ -1,4 +1,4 @@
-![TruePass architecture](assets/readme/TruePass™: Signals to Security Roadmap.png
+![TruePass architecture](assets/readme/TruePass™_Signals_to_Security_Roadmap.png)
 
 # TruePass™ Correlation Engine
 
