@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "iterations": 100,
+  "elapsed_seconds": 3.111304870999959,
+  "frames_per_second": 32.140855411530424,
+  "peak_python_bytes": 1555770,
+  "latest_spectrum_present": true,
+  "ledger_valid": true
+}

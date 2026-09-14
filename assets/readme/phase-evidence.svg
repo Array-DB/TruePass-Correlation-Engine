@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#0d1117"/>
+  <text x="70" y="90" fill="#f0f6fc" font-size="42" font-family="Arial,Helvetica,sans-serif" font-weight="700">Tamper-Evident Evidence Pipeline</text>
+  <text x="70" y="135" fill="#8b949e" font-size="22" font-family="Arial,Helvetica,sans-serif">Canonical event bytes are chained, batched, proven, and optionally externally timestamped.</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="70" y="280" width="220" height="150" rx="18" fill="#161b22" stroke="#58a6ff" stroke-width="2"/><text x="105" y="335" fill="#58a6ff" font-size="26" font-weight="700">Event</text><text x="105" y="380" fill="#c9d1d9" font-size="20">canonical bytes</text>
+    <rect x="365" y="280" width="220" height="150" rx="18" fill="#161b22" stroke="#3fb950" stroke-width="2"/><text x="400" y="335" fill="#3fb950" font-size="26" font-weight="700">Hash Chain</text><text x="400" y="380" fill="#c9d1d9" font-size="20">SHA-256 linkage</text>
+    <rect x="660" y="280" width="220" height="150" rx="18" fill="#161b22" stroke="#d29922" stroke-width="2"/><text x="695" y="335" fill="#d29922" font-size="26" font-weight="700">Merkle Tree</text><text x="695" y="380" fill="#c9d1d9" font-size="20">batch root + proof</text>
+    <rect x="955" y="280" width="220" height="150" rx="18" fill="#161b22" stroke="#f778ba" stroke-width="2"/><text x="990" y="335" fill="#f778ba" font-size="26" font-weight="700">Signature</text><text x="990" y="380" fill="#c9d1d9" font-size="20">optional signing</text>
+    <rect x="955" y="500" width="220" height="130" rx="18" fill="#161b22" stroke="#a371f7" stroke-width="2"/><text x="990" y="555" fill="#a371f7" font-size="26" font-weight="700">Anchor</text><text x="990" y="595" fill="#c9d1d9" font-size="20">commitment only</text>
+    <text x="310" y="365" fill="#8b949e" font-size="38">→</text><text x="605" y="365" fill="#8b949e" font-size="38">→</text><text x="900" y="365" fill="#8b949e" font-size="38">→</text><text x="1050" y="470" fill="#8b949e" font-size="38">↓</text>
+  </g>
+  <text x="70" y="705" fill="#c9d1d9" font-size="22" font-family="Arial,Helvetica,sans-serif">No raw PII is published to a public blockchain. Identity data and wallet key generation remain separate domains.</text>
+</svg>

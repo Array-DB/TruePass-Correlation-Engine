@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+  <rect width="1400" height="800" fill="#0d1117"/>
+  <text x="70" y="90" fill="#f0f6fc" font-size="42" font-family="Arial,Helvetica,sans-serif" font-weight="700">TruePass™ Architecture</text>
+  <text x="70" y="135" fill="#8b949e" font-size="22" font-family="Arial,Helvetica,sans-serif">Observe → Timestamp → Normalize → Correlate → Score → Preserve Evidence → Alert</text>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="70" y="200" rx="18" ry="18" width="250" height="420" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="105" y="245" fill="#58a6ff" font-size="26" font-weight="700">Sensors</text>
+    <text x="105" y="300" fill="#c9d1d9" font-size="22">RF / SDR</text><text x="105" y="345" fill="#c9d1d9" font-size="22">Wi-Fi</text><text x="105" y="390" fill="#c9d1d9" font-size="22">Bluetooth</text><text x="105" y="435" fill="#c9d1d9" font-size="22">Host / Process</text><text x="105" y="480" fill="#c9d1d9" font-size="22">Network</text><text x="105" y="525" fill="#c9d1d9" font-size="22">Authentication</text>
+
+    <rect x="395" y="200" rx="18" ry="18" width="280" height="420" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="430" y="245" fill="#3fb950" font-size="26" font-weight="700">Event Space</text>
+    <text x="430" y="300" fill="#c9d1d9" font-size="22">Canonical schema</text><text x="430" y="345" fill="#c9d1d9" font-size="22">Nanosecond time</text><text x="430" y="390" fill="#c9d1d9" font-size="22">Provenance</text><text x="430" y="435" fill="#c9d1d9" font-size="22">Feature vectors</text><text x="430" y="480" fill="#c9d1d9" font-size="22">Baseline context</text><text x="430" y="525" fill="#c9d1d9" font-size="22">Asset relationships</text>
+
+    <rect x="750" y="200" rx="18" ry="18" width="280" height="420" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="785" y="245" fill="#d29922" font-size="26" font-weight="700">Correlation</text>
+    <text x="785" y="300" fill="#c9d1d9" font-size="22">Temporal proximity</text><text x="785" y="345" fill="#c9d1d9" font-size="22">Process ↔ socket</text><text x="785" y="390" fill="#c9d1d9" font-size="22">Device relationships</text><text x="785" y="435" fill="#c9d1d9" font-size="22">RF similarity</text><text x="785" y="480" fill="#c9d1d9" font-size="22">Candidate paths</text><text x="785" y="525" fill="#c9d1d9" font-size="22">Explainable score</text>
+
+    <rect x="1105" y="200" rx="18" ry="18" width="225" height="420" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="1140" y="245" fill="#f778ba" font-size="26" font-weight="700">Evidence</text>
+    <text x="1140" y="300" fill="#c9d1d9" font-size="22">Hash chain</text><text x="1140" y="345" fill="#c9d1d9" font-size="22">Merkle roots</text><text x="1140" y="390" fill="#c9d1d9" font-size="22">Signatures</text><text x="1140" y="435" fill="#c9d1d9" font-size="22">Incident record</text><text x="1140" y="480" fill="#c9d1d9" font-size="22">Optional anchor</text>
+
+    <text x="335" y="420" fill="#8b949e" font-size="38">→</text><text x="690" y="420" fill="#8b949e" font-size="38">→</text><text x="1045" y="420" fill="#8b949e" font-size="38">→</text>
+  </g>
+  <text x="70" y="705" fill="#8b949e" font-size="20" font-family="Arial,Helvetica,sans-serif">Defensive design: no single observation independently establishes compromise.</text>
+</svg>
